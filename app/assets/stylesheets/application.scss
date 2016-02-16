@@ -16,6 +16,27 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
- .test {
- 	color : green;
- }
+
+
+.header {
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.header h3{
+	margin: 0px;
+	line-height: 40px;
+	font-size: 24px;
+}
+
+.jumbotron{
+	overflow: hidden;
+}
+
+.features li {
+	padding:10px 0px;
+}
+
+.signup .btn {
+	margin-top: 40px;
+}
