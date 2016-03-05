@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  devise_for :users
   get 'signup' => 'users#new'
   get 'about' => 'static_pages#about'
 
